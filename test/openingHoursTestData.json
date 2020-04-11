@@ -1,0 +1,93 @@
+[
+  {
+    "opening_hours" : {
+      "days" : {
+        "tuesday" : [ {
+          "start" : "11:30",
+          "end" : "15:00",
+          "type" : "OPEN"
+        }, {
+          "start" : "18:30",
+          "end" : "00:00",
+          "type" : "OPEN"
+        } ],
+        "wednesday" : [ {
+          "start" : "11:30",
+          "end" : "15:00",
+          "type" : "OPEN"
+        }, {
+          "start" : "18:30",
+          "end" : "00:00",
+          "type" : "OPEN"
+        } ],
+        "thursday" : [ {
+          "start" : "12:30",
+          "end" : "16:00",
+          "type" : "OPEN"
+        }, {
+          "start" : "18:30",
+          "end" : "00:00",
+          "type" : "OPEN"
+        } ],
+        "friday" : [ {
+          "start" : "11:30",
+          "end" : "15:00",
+          "type" : "OPEN"
+        }, {
+          "start" : "18:30",
+          "end" : "00:00",
+          "type" : "OPEN"
+        } ],
+        "saturday" : [ {
+          "start" : "18:00",
+          "end" : "00:00",
+          "type" : "OPEN"
+        } ],
+        "sunday" : [ {
+          "start" : "11:30",
+          "end" : "15:00",
+          "type" : "OPEN"
+        } ]
+      }
+    }, 
+    "expected": [
+      [
+          [
+              "Monday"
+          ],
+          "CLOSED"
+      ],
+      [
+          [
+              "Tuesday",
+              "Wednesday"
+          ],
+          "11:30 - 15:00,18:30 - 00:00"
+      ],
+      [
+          [
+              "Thursday"
+          ],
+          "12:30 - 16:00,18:30 - 00:00"
+      ],
+      [
+          [
+              "Friday"
+          ],
+          "11:30 - 15:00,18:30 - 00:00"
+      ],
+      [
+          [
+              "Saturday"
+          ],
+          "18:00 - 00:00"
+      ],
+      [
+          [
+              "Sunday"
+          ],
+          "11:30 - 15:00"
+      ]
+  ]
+  }
+]
