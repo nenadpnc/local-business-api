@@ -13,10 +13,13 @@ $ cd api
 # install the dependencies with npm
 $ npm install
 
+# build
+$ npm run build
+
 # start the server
 $ npm start
 ```
-API is available at [http://localhost:3000](http://localhost:3000) and has one route `/api/places/:id`
+API is available at [http://localhost:3001](http://localhost:3001) and exposes two routes `/api/places` and `/api/places/:id`
 
 
 # License

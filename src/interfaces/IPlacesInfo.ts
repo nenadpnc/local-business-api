@@ -198,5 +198,5 @@ export interface PlaceInfoTransformed {
   openingHours: any;
   name: string;
   address: string;
-  geo: any;
+  geo: Geography;
 }

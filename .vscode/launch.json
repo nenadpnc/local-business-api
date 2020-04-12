@@ -8,7 +8,7 @@
       "type": "node",
       "request": "launch",
       "name": "Debug API",
-      "program": "${workspaceFolder}/build/index.js",
+      "program": "${workspaceFolder}/build/src/index.js",
       "preLaunchTask": "build",
       "outputCapture": "std",
       "skipFiles": [
